@@ -1,0 +1,35 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #011a1d 10%, #272828 100%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.6rem;
+    color: #b8e1d6;
+    margin-bottom: 50px;
+}
+
+#link {
+    font-size: 2.5rem;
+    color: #ecbbdd; 
+    padding: 30px 60px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1.5px solid #456961;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(85, 129, 111, 0.802);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#location:hover {
+    transform: scale(1.05);
+    
+}
+
+
